@@ -19,3 +19,7 @@ document.querySelectorAll(".close-btn").forEach((button) => {
     hideCard(event.target.closest(".overlay").id);
   });
 });
+
+console.log("Showing card:", cardId);
+console.log("Hiding card:", cardId);
+console.log("Close button clicked");
