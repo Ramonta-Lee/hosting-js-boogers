@@ -1,3 +1,4 @@
+// scripts.js
 export function showCard(cardId) {
   console.log("Showing card:", cardId); // Debug message
   document.querySelectorAll(".overlay").forEach((overlay) => {
